@@ -1,0 +1,51 @@
+h1 {
+  font-size: 60px;
+  color: burlywood;
+  text-align: center;
+}
+
+hr {
+  background-color: bisque;
+}
+
+#introduction + div {
+  background-color: beige;
+}
+
+h1 + div {
+  background-color: blanchedalmond;
+  font-size: large;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  gap: 15px;
+  width: 100%;
+  background-color: palevioletred;
+  border-radius: 10px;
+}
+
+table {
+  padding-top: 70px;
+  width: 100%;
+}
+
+td {
+  padding-top: 25px;
+  text-align: center;
+}
+
+thead tr:first-child {
+  background-color: palevioletred;
+  height: 40px;
+  border-radius: 100px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: pink;
+  height: 40px;
+}
+
+
